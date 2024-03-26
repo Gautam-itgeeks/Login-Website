@@ -1,0 +1,58 @@
+.all-products-home-page {
+  gap: 20px;
+  display: flex;
+  font-family: "Vesper Libre", serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, white, rgb(255, 255, 220));
+}
+
+.Show-all-products {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.all-product-are-avilable {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+.AllProduct h1 {
+  color: black;
+  font-size: 24px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+.homepageinputone input {
+  height: 30px;
+  width: 200px;
+  border: 1px solid rgb(87, 85, 85);
+  outline: 0px;
+  border-radius: 2px;
+}
+.homepageinputtwo select {
+  height: 30px;
+  width: 200px;
+  border: 1px solid rgb(87, 85, 85);
+  outline: 0px;
+  border-radius: 2px;
+}
+.homepageinputone input::placeholder,
+.homepageinputtwo select {
+  color: rgb(107, 104, 104);
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 16px;
+  font-family: "Libre Caslon Display", serif;
+  padding-left: 20px;
+}
+.product-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}

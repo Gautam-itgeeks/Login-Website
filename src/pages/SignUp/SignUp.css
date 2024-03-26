@@ -1,0 +1,70 @@
+/* General styles */
+.sign-up-outer {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.sign-up-outer h2 {
+  margin: 0 0 20px;
+  text-align: center;
+  font-family: "Original Surfer", sans-serif;
+}
+
+/* Form input styles */
+.sign-up-name-part label,
+.sign-up-name-email label,
+.sign-up-name-three label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Original Surfer", sans-serif;
+}
+
+.sign-up-name-part input,
+.sign-up-name-email input,
+.sign-up-name-three input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button styles */
+.sign-up-name-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sign-up-name-buttons button {
+  flex: 0 0 calc(50% - 5px);
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.sign-up-name-buttons button:hover {
+  background-color: #ddd;
+}
+
+/* Adjust button margins */
+.sign-up-name-buttons button:first-child {
+  margin-right: 10px;
+}
