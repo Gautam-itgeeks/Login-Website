@@ -1,4 +1,10 @@
 /* Product.css */
+
+a {
+text-decoration: none;
+color: black;
+}
+
 .products-outer-one {
   display: flex;
   flex-direction: column;

@@ -60,13 +60,11 @@ const Login = () => {
             <form onSubmit={handleSubmit}>
                 <div className='Login-up-one-name-email'>
                     <label htmlFor="email">Email:</label>
-                    <input    minLength={1}
-                    maxLength={10} onChange={(e) => setEmail(e.target.value)} value={email} type="text" id="email" />
+                    <input    maxLength={31} onChange={(e) => setEmail(e.target.value)} value={email} type="text" id="email" />
                 </div>
                 <div className='Login-up-two-three-name-three'>
                     <label htmlFor="password">Password:</label>
-                    <input    minLength={1}
-                    maxLength={10} onChange={(e) => setPassword(e.target.value)} value={password} type="password" id="password" />
+                    <input     maxLength={31} onChange={(e) => setPassword(e.target.value)} value={password} type="password" id="password" />
                 </div>
                 <div className='Login-up-name-buttons-one'>
                     <button type="submit">Login</button>
